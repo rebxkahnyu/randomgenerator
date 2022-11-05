@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Poor+Story&display=swap');
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #cffcff;
+}
+
+h1 {
+  font-family: 'Poor Story', cursive;
+  font-size: 4vw;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+div {
+  font-size: 2vw;
+  font-family: 'Manjari', sans-serif;
+}
+
+#genreList {
+  font-family: 'Poor Story', cursive;
+  font-size: 2.5vw;
+}
+
+input, button {
+  font-size: 2.5vw;
+  font-family: 'Manjari', sans-serif;
+  padding: 10px;
+  margin-top: 40px;
+    border-radius: 8px;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: pink;
+  color: black;
+  border: 2px solid pink;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#outputText {
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 100px;
+}
